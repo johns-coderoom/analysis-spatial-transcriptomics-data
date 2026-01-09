@@ -57,7 +57,13 @@ st_normalize.R
 A simple script that takes data from the ST pipeline and uses several Seurat features to normalize counts and to generate QC plots.
 
 10X Visium SpaceRanger example:
-https://1drv.ms/i/c/76a66485451b9bc6/IQCDZYUUH2KLTZiHhfhRuppuAbAc4I5OoaudpKSS_VM-piA?e=toU10F
+<img width="600" height="427" alt="181936155-51c0f0c1-878b-4d3e-97d9-53b61f487f6d" src="https://github.com/user-attachments/assets/3e246d28-08aa-4118-b7f3-7522c7b68eb9" /> <img width="1500" height="1500" alt="181096917-260e847f-074d-41ee-a225-54dab2121184" src="https://github.com/user-attachments/assets/a70ce8d4-d637-444c-b398-3178eeec77ba" /> <img width="800" height="800" alt="75380489-21e93080-58a5-11ea-8d1a-75950b0dd104" src="https://github.com/user-attachments/assets/a96c4241-e359-403b-9db5-e051ca4e7ea9" /> <img width="800" height="800" alt="75268883-1410ae00-57c6-11ea-9adf-00bef6b05fef" src="https://github.com/user-attachments/assets/17033ccd-3f8a-4062-bcb9-bf7c806a103d" /> <img width="1200" height="600" alt="75631970-879b2c80-5bc5-11ea-8e45-87f488357210" src="https://github.com/user-attachments/assets/e551f5ca-2c5c-4dd0-ad28-0a085584a22b" /> <img width="640" height="619" alt="122808326-c19cb000-d29a-11eb-95b4-da14b0f6d4f0" src="https://github.com/user-attachments/assets/47aa9f3d-c7ae-4b2e-b898-e5f7daa89969" />
+
+
+
+
+
+
 
 #  spaceranger_dir is the path to filtered_feature_bc_matrix.h5
 Rscript $STTKIT/st_normalize.R --spaceranger_dir $SAMPLE/outs \
