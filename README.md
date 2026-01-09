@@ -57,6 +57,7 @@ st_normalize.R
 A simple script that takes data from the ST pipeline and uses several Seurat features to normalize counts and to generate QC plots.
 
 10X Visium SpaceRanger example:
+https://1drv.ms/i/c/76a66485451b9bc6/IQCDZYUUH2KLTZiHhfhRuppuAbAc4I5OoaudpKSS_VM-piA?e=toU10F
 
 #  spaceranger_dir is the path to filtered_feature_bc_matrix.h5
 Rscript $STTKIT/st_normalize.R --spaceranger_dir $SAMPLE/outs \
